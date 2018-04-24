@@ -1,11 +1,11 @@
 cflags:
 {
   -std=c99
-  -I$BRNKL_ROOT/apps/util
+  -I$CURDIR/../util
 }
 
 sources:
 {
-  $BRNKL_ROOT/apps/util/util.c
+  $CURDIR/../util/util.c
   main.c
 }
