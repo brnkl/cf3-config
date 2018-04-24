@@ -1,0 +1,11 @@
+cflags:
+{
+  -std=c99
+  -I$BRNKL_ROOT/apps/util
+}
+
+sources:
+{
+  $BRNKL_ROOT/apps/util/util.c
+  main.c
+}

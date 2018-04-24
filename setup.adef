@@ -1,0 +1,21 @@
+version: 0.1.0
+sandboxed: false
+start: manual
+
+executables:
+{
+  setup = ( main )
+}
+
+processes:
+{
+  envVars:
+  {
+    LE_LOG_LEVEL = INFO
+  }
+
+  run:
+  {
+    ( setup )
+  }
+}

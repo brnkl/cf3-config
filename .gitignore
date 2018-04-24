@@ -1,0 +1,6 @@
+*.update
+_build**
+.DS_Store
+legato
+.repo
+.AppleDouble
