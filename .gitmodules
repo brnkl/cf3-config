@@ -1,3 +1,6 @@
 [submodule "legato-util"]
 	path = legato-util
 	url = https://github.com/brnkl/legato-util
+[submodule "util"]
+	path = util
+	url = https://github.com/brnkl/legato-util
